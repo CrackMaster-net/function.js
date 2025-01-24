@@ -24,7 +24,7 @@ function division() {
 		document.getElementById("resultInDivision").value = "SyntaxError";
 	}
 	else {
-		z = x / y;
+		z = (x / y).toFIxed(); //limiting the decimal point (1- 20)
 		document.getElementById("resultInDivision").value = z;
 	}	
 }
