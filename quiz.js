@@ -77,3 +77,5 @@ function myTenthQuestionCorrect () {
 function myTenthQuestionWrong () {
     document.getElementById("question10").innerHTML = "Wrong Answer";
 }
+
+//This JavaScript has only two "function"
