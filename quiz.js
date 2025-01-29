@@ -78,4 +78,12 @@ function myTenthQuestionWrong () {
     document.getElementById("question10").innerHTML = "Wrong Answer";
 }
 
+
+
 //This JavaScript has only two "function"
+function handleCorrectAnswer(questionId) {
+    document.getElementById(questionId).innerHTML = "<p style='color: green;'>Correct</p>";
+}
+function handleWrongAnswer(questionId) {
+    document.getElementById(questionId).innerHTML = "Wrong Answer";
+}
