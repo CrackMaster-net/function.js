@@ -30,6 +30,8 @@ function division() {
     document.getElementById("result").innerHTML = z;
 }
 
+
+
 //This JavaScript has a "if-else" condition
 // calling a function
 function addition() { //start creating a function
